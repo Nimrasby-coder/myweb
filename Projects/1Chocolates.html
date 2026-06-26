@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .choco{
+            height: 100vh;
+            background-image: url("https://images.pexels.com/photos/11178475/pexels-photo-11178475.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: aliceblue;
+            font-size: larger; 
+            
+            justify-content: center;
+            align-items: center;
+        }
+
+        body{
+            height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;            
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        
+        }
+
+        .product{
+            border: 1px solid black;
+            border-radius: 12px;
+            width: 250px;
+            padding: 12px;
+            margin-bottom: 15px;
+            text-align: center;
+            box-shadow:     4px    4px       8px        black;
+            
+            
+        }
+        .product:hover {
+            background-color: red;
+            transition: 2s;
+            transform: scale((1.03));
+            color: white;
+            transform: rotateY('200deg');
+        }            
+            
+
+
+
+        }
+
+        .product h2{
+           border-bottom: 1px solid black;
+        }
+
+        .product img{
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 12px;
+            
+            
+        }
+
+        .product button{
+            background-color: orange;
+            border: none;
+            padding: 10px;
+            border-radius: 12px;
+            width: 90%;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="choco">
+        <h1>CHOCOLATES</h1>
+    </section>
+
+     <header>
+      <nav> 
+        <u1>
+            <li> <a href="#home">Home</a></li>
+            <li> <a href="#menu">Menu</a></li>
+            <li> <a href="#review">Review</a></li>
+            <li> <a href="#contact">Contact</a></li>
+            <li> <a href="login.html">Login</a></li>
+        </u1>
+      </nav>
+    </header>
+
+     <main>
+     <section id="home">
+        <h3> Home</h3>
+        <p>Yummy chocolates</p>
+     </section>
+
+      <section id="menu">
+          <section style="background-color: rgb(238, 236, 234);">
+          <h2>Menu</h2>
+          </section>    
+          
+          <div class="product" "background-color: white;">
+          <img width="250" src="https://images.pexels.com/photos/31064625/pexels-photo-31064625.jpeg"  height="150" width="150"
+          <h2>Brownie Crunch Brittle</h2>
+          <p>399.00</p>
+          <button>Buy now</button>
+          </div>
+
+           <div class="product" "background-color: white;">
+          <img src="https://images.pexels.com/photos/29609856/pexels-photo-29609856.jpeg"  height="150" width="150"
+          <h2>Almond Stuffed Choco Dates</h2>
+          <p>299.00</p>
+          <button>Buy now</button>
+          </div>
+
+          <div class="product" "background-color: white;">
+          <img src="https://images.pexels.com/photos/36492915/pexels-photo-36492915.jpeg"  height="150" width="150"
+          <h2>Freeze Dried Strawberries in Belgian Dark Chocolate</h2>
+          <p>699.00</p>
+          <button>Buy now</button>
+          </div>
+
+         <div class="product" "background-color: white;">
+        <img src="https://images.pexels.com/photos/7625247/pexels-photo-7625247.jpeg"  height="150" width="150"
+        <h2>Mocha Cashew Crunch</h2>
+        <p>325.00</p>
+        <button>Buy now</button>
+        </div>
+
+        <div class="product" "background-color: white;">
+        <img src="https://images.pexels.com/photos/5272847/pexels-photo-5272847.jpeg"  height="150" width="150"
+        <h2>Toblerone Swiss Milk Chocolate</h2>
+        <p>399.00</p>
+        <button>Buy now</button>
+        </div>
+
+         <section id="review">
+        <h2>Review</h2>
+        <button>Enter a Review</button>
+        <div>
+         <h3>Angeline</h3>
+         <p>"Mocha Cashew Crunch is a must try chocolates"</p>
+        </div>
+
+        <div>
+         <h3>Nora</h3>
+         <p>"Really amazing chocolates"</p>
+        </div>
+
+         <section id="contact">
+        <h2>Contact</h2>
+        <p>Choco@gmail.com</p>
+        <p>+123 4563 2335</p>
+        <p>Follow Us</p>
+        <p>Instagram</p>
+     </section>
+
+     <footer>
+      <p>&copy;Chocolate 2026 </p>
+    </footer>
+
+     
+
+        
+    
+    
+</body>
+</html>
